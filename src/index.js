@@ -3,10 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-export const Frontend = require("./img/DEV.png");
-export const Design = require("./img/Design.png");
-export const Database = require("./img/DB.png");
-export const Adobe = require("./img/AdobeApps.png");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
