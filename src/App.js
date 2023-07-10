@@ -57,7 +57,7 @@ function App() {
             className="w-full h-full flex flex-col items-center min-h-screen bg-black"
           >
             <img className="mt-40 w-1/1 " src={me} alt="Logo" />
-            <p className="text-white mt-14 mx-14 text-xs leading-4 font-poppins">
+            <p className="text-white mt-14 text-xs leading-4 font-poppins">
               I'm Jiří, and for the past six years, IT has been my true passion.
               In my spare time, I immerse myself in web development, constantly
               pushing myself to create innovative and user-friendly websites.
