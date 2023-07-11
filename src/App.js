@@ -90,9 +90,7 @@ function App() {
             </div>
             <div>
               <h1 className="text-white font-medium font-poppins ">Design</h1>
-              <div>
-                <img className="w-52 pt-2 pb-6" src={Design}></img>
-              </div>
+              <div></div>
             </div>
             <div>
               <h1 className="text-white font-medium font-poppins">Database</h1>
