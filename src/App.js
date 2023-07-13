@@ -12,7 +12,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <nav class="font-poppins font-extralight  fixed flex w-full truncate px-14 gap-4 items-center justify-center backdrop-blur-sm  py-9 bg-black/80 z-10">
+      <nav
+        class="font-poppins font-extralight  fixed flex w-full truncate px-14 gap-4 items-center justify-center backdrop-blur-sm  py-9 bg-black/80 z-10
+      "
+      >
         <a
           href="#about"
           class="dark:text-white text-xs md:text-base opacity-75"
@@ -39,44 +42,46 @@ function App() {
           CONTACT
         </a>
       </nav>
-      <div className="flex flex-col w-full h-full min-h-screen bg-black px-14">
+      <div className="flex flex-col w-full h-full min-h-screen  xl:h-auto  bg-black px-14 xl:px-52  ">
         <section
           id="home"
           className="flex h-full  w-full min-h-screen flex-col "
         >
-          <h1
-            className="text-white  font-poppins  font-semibold text-5xl   mt-52 text-left
-                          2xl:text-9xl
-                          "
-          >
+          <h1 className="text-white  font-poppins  font-semibold text-5xl xl:text-9xl   mt-36 text-left">
             JIŘÍ <br></br> ZUBRYCKYJ
           </h1>
-          <p className="text-white leading-9 text-3xl font-poppins text-left mt-16 opacity-50">
+          <p className="text-white leading-9 xl:leading-8 xl:w-1/2 text-3xl font-poppins text-left mt-16 opacity-50">
             Junior freelance developer skilled in React, HTML, CSS, and
             JavaScript. Committed to delivering high-quality projects with
             efficiency and creativity.
           </p>
           <button
             class=" font-poppins  mt-5 bg-emerald-500 w-[150px] h-[41px]  font-semibold 
-         rounded-[10px]
+         rounded-[10px] xl:mt-7
          text-white"
           >
             About Me
           </button>
         </section>
-        <section
-          id="about"
-          className="w-full h-full flex flex-col items-center min-h-screen bg-black"
-        >
-          <img className="mt-32 w-full " src={me} alt="Logo" />
-          <p className="text-white mt-10 text-xl leading-8 w-full font-regular font-poppins">
-            I'm Jiří, and for the past six years, IT has been my true passion.
-            In my spare time, I immerse myself in web development, constantly
-            pushing myself to create innovative and user-friendly websites.
-            Beyond the digital realm, I also prioritize personal growth,
-            dedicating time to sports and physical activities.
-          </p>
-        </section>
+        <div className="flex flex-col xl:flex-row w-full h-full min-h-screen bg-black ">
+          <section
+            id="about"
+            className="w-full h-full xl:flex-row gap-10  flex flex-col items-center min-h-screen bg-black"
+          >
+            <img
+              className="mt-32 w-full xl:w-1/3 xl:mt-20"
+              src={me}
+              alt="Logo"
+            />
+            <p className="text-white mt-10 text-xl xl:leading-10  w-full font-regular font-poppins xl:text-5xl">
+              I'm Jiří, and for the past six years, IT has been my true passion.
+              In my spare time, I immerse myself in web development, constantly
+              pushing myself to create innovative and user-friendly websites.
+              Beyond the digital realm, I also prioritize personal growth,
+              dedicating time to sports and physical activities.
+            </p>
+          </section>
+        </div>
         <div className="w-full  h-full min-h-screen bg-black ">
           <section
             id="skills"
