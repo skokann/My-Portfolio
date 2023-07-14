@@ -47,10 +47,10 @@ function App() {
           id="home"
           className="flex h-full  w-full min-h-screen flex-col "
         >
-          <h1 className="text-white  font-poppins  font-semibold text-5xl xl:text-9xl   mt-36 text-left">
+          <h1 className="text-white  font-poppins  font-semibold text-5xl xl:text-9xl xl:mt-28   mt-28 text-left">
             JIŘÍ <br></br> ZUBRYCKYJ
           </h1>
-          <p className="text-white leading-9 xl:leading-8 xl:w-1/2 text-3xl font-poppins text-left mt-16 opacity-50">
+          <p className="text-white leading-9 xl:leading-8 xl:w-5/6 text-3xl font-poppins text-left mt-16 opacity-50">
             Junior freelance developer skilled in React, HTML, CSS, and
             JavaScript. Committed to delivering high-quality projects with
             efficiency and creativity.
@@ -69,11 +69,11 @@ function App() {
             className="w-full h-full xl:flex-row gap-10  flex flex-col items-center min-h-screen bg-black"
           >
             <img
-              className="mt-32 w-full xl:w-1/3 xl:mt-20"
+              className="mt-24 w-full xl:w-1/3 xl:mt-20"
               src={me}
               alt="Logo"
             />
-            <p className="text-white mt-10 text-xl xl:leading-10  w-full font-regular font-poppins xl:text-5xl">
+            <p className="text-white mt-3 text-xl xl:leading-10  w-full font-regular font-poppins xl:text-5xl">
               I'm Jiří, and for the past six years, IT has been my true passion.
               In my spare time, I immerse myself in web development, constantly
               pushing myself to create innovative and user-friendly websites.
@@ -87,7 +87,7 @@ function App() {
             id="skills"
             className="w-full h-full flex flex-col  min-h-screen bg-black"
           >
-            <div className="flex mt-32 flex-col">
+            <div className="flex mt-32 flex-">
               <h1 className="text-white font-medium font-poppins">Frontend</h1>
               <div>
                 <img className="w-32 pt-2 pb-6" src={Frontend} alt="Logo" />
@@ -100,7 +100,7 @@ function App() {
             <div>
               <h1 className="text-white font-medium font-poppins">Database</h1>
               <div>
-                <img className="pt-2 pb-6" src={Database}></img>
+                <img className="w-32  pt-2 pb-6" src={Database}></img>
               </div>
             </div>
             <div>
@@ -108,7 +108,7 @@ function App() {
                 Adobe Apps
               </h1>
               <div>
-                <img className="pt-2 pb-6" src={Adobe}></img>
+                <img className="w-32  pt-2 pb-6" src={Adobe}></img>
               </div>
             </div>
             <p className="text-white font-regular font-poppins text-xl leading-7 mt-5">
