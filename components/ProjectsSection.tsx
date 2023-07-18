@@ -7,9 +7,9 @@ export default function ProjectsSection() {
         <h1 className="text-white text-3xl font-medium">Recent Projects</h1>
         <div className="block w-10 h-1 bg-white" />
         <span className="mt-5 text-gray-400 w-full max-w-4xl text-xl">
-          Within my journey as a front-end developer, I've had the opportunity
-          to work on a range of exciting projects. work on a range of exciting
-          projects.
+          Within my journey as a front-end developer, I&apos;ve had the
+          opportunity to work on a range of exciting projects. work on a range
+          of exciting projects.
         </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-10 justify-between">

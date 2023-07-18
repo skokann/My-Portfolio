@@ -9,9 +9,10 @@ export default function AboutSection() {
       </div>
       <div className="grid grid-cols-12 items-center justify-between gap-10">
         <span className="col-span-12 lg:col-span-9 text-gray-400 w-full max-w-4xl text-xl">
-          I'm Jiří, and for the past six years, IT has been my true passion. In
-          my spare time, I immerse myself in web development, constantly pushing
-          myself to create innovative and user-friendly websites.
+          I&apos;m Jiří, and for the past six years, IT has been my true
+          passion. In my spare time, I immerse myself in web development,
+          constantly pushing myself to create innovative and user-friendly
+          websites.
         </span>
         <Image
           src="/jirizubryckyj.png"

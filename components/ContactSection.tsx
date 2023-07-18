@@ -17,9 +17,9 @@ export default function ContactSection() {
         <div className="flex flex-col gap-1 w-full items-center justify-center">
           <h1 className="text-white text-3xl font-medium">Contact Me</h1>
           <span className="text-gray-400 w-full text-center max-w-xl text-base">
-            Let's work together! I'm currently available to work for a cool
-            company. <br /> If you're interested in hiring me, please contact
-            me.
+            Let&apos;s work together! I&apos;m currently available to work for a
+            cool company. <br /> If you&apos;re interested in hiring me, please
+            contact me.
           </span>
         </div>
         <div className="flex flex-col gap-5">

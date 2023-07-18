@@ -9,7 +9,7 @@ export default function Skills() {
       </div>
       <div className="grid grid-cols-12 items-center justify-between gap-10">
         <span className="col-span-12 lg:col-span-9 text-gray-400 w-full max-w-2xl text-xl">
-          As a front-end developer and designer, I've honed my skills in a
+          As a front-end developer and designer, I&apos;ve honed my skills in a
           versatile stack. From HTML and CSS to JavaScript and frameworks like
           React.
         </span>
