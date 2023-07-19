@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-10 px-10 w-full max-w-7xl mx-auto h-full bg-black">
+    <main className="flex flex-col gap-10 px-10 w-full max-w-7xl mx-auto h-full bg-black overflow-hidden">
       <Navbar />
       <HeroSection />
       <AboutSection />

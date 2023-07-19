@@ -36,17 +36,17 @@ export default function ContactSection() {
             label="Subject"
             type="text"
             placeholder="Enter your subject"
-            value={formValues.email}
+            value={formValues.subject}
             onChange={(e) =>
-              setFormValues({ ...formValues, email: e.target.value })
+              setFormValues({ ...formValues, subject: e.target.value })
             }
           />
           <Textarea
             label="Message"
             placeholder="What's on your mind?"
-            value={formValues.email}
+            value={formValues.message}
             onChange={(e) =>
-              setFormValues({ ...formValues, email: e.target.value })
+              setFormValues({ ...formValues, message: e.target.value })
             }
           />
           <div className="flex w-full items-end justify-end">
