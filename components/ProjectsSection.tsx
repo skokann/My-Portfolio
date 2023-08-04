@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function ProjectsSection() {
   return (
-    <div className="flex flex-col gap-10 h-auto justify-center py-20">
+    <section
+      id="projects"
+      className="flex flex-col gap-10 h-auto justify-center py-20"
+    >
       <div className="flex flex-col gap-1 w-full items-start justify-start">
         <h1 className="text-white text-3xl font-medium">Recent Projects</h1>
         <div className="block w-10 h-1 bg-white" />
@@ -65,6 +68,6 @@ export default function ProjectsSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

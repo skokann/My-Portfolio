@@ -12,7 +12,10 @@ export default function ContactSection() {
   });
 
   return (
-    <div className="flex h-auto justify-center items-center py-20">
+    <section
+      id="contact"
+      className="flex h-auto justify-center items-center py-20"
+    >
       <div className="flex flex-col w-full max-w-3xl gap-10 mx-auto">
         <div className="flex flex-col gap-1 w-full items-center justify-center">
           <h1 className="text-white text-3xl font-medium">Contact Me</h1>
@@ -36,17 +39,17 @@ export default function ContactSection() {
             label="Subject"
             type="text"
             placeholder="Enter your subject"
-            value={formValues.email}
+            value={formValues.subject}
             onChange={(e) =>
-              setFormValues({ ...formValues, email: e.target.value })
+              setFormValues({ ...formValues, subject: e.target.value })
             }
           />
           <Textarea
             label="Message"
             placeholder="What's on your mind?"
-            value={formValues.email}
+            value={formValues.message}
             onChange={(e) =>
-              setFormValues({ ...formValues, email: e.target.value })
+              setFormValues({ ...formValues, message: e.target.value })
             }
           />
           <div className="flex w-full items-end justify-end">
@@ -56,6 +59,6 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
