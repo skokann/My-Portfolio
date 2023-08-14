@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AiOutlineLink } from "react-icons/ai";
 
 export default function ProjectsSection() {
   return (
@@ -24,7 +25,7 @@ export default function ProjectsSection() {
             alt="Windflow"
           />
           <div className="flex flex-col gap-2">
-            <h2 className="text-white text-xl">CSS Components Library</h2>
+            <h2 className="text-white text-xl"></h2>
             <Image
               src="/projects/stack.png"
               width={80}
@@ -41,7 +42,15 @@ export default function ProjectsSection() {
             alt="Password Generator"
           />
           <div className="flex flex-col gap-2">
-            <h2 className="text-white text-xl">Password Generator</h2>
+            <h2 className="text-white text-xl">
+              Password Generator &nbsp;
+              <a
+                className="inline-block"
+                href="https://zubryckyj-password-gen.vercel.app"
+              >
+                <AiOutlineLink />
+              </a>
+            </h2>
             <Image
               src="/projects/stack.png"
               width={80}
@@ -58,7 +67,37 @@ export default function ProjectsSection() {
             alt="Portfolio"
           />
           <div className="flex flex-col gap-2">
-            <h2 className="text-white text-xl">My new portfolio</h2>
+            <h2 className="text-white text-xl">
+              My new portfolio &nbsp;
+              <a className="inline-block" href="https://zubryckyj.dev">
+                <AiOutlineLink />
+              </a>
+            </h2>
+            <Image
+              src="/projects/stack.png"
+              width={80}
+              height={80}
+              alt="Stack"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col gap-5 opacity-50 hover:opacity-100 duration-150">
+          <Image
+            src="/projects/bankapp.png"
+            width={500}
+            height={300}
+            alt="Portfolio"
+          />
+          <div className="flex flex-col gap-2">
+            <h2 className="text-white text-xl">
+              Modern bank landing page &nbsp;
+              <a
+                className="inline-block"
+                href="https://modern-bank-website-sigma.vercel.app/"
+              >
+                <AiOutlineLink />
+              </a>
+            </h2>
             <Image
               src="/projects/stack.png"
               width={80}
