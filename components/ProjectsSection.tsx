@@ -106,6 +106,28 @@ export default function ProjectsSection() {
             />
           </div>
         </div>
+        <div className="flex flex-col gap-5 opacity-50 hover:opacity-100 duration-150">
+          <Image
+            src="/projects/dntkadan.png"
+            width={500}
+            height={300}
+            alt="Portfolio"
+          />
+          <div className="flex flex-col gap-2">
+            <h2 className="text-white text-xl">
+              TJ DNT Kadaň Vodní slalom &nbsp;
+              <a className="inline-block" href="https://slalomkadan.cz">
+                <AiOutlineLink />
+              </a>
+            </h2>
+            <Image
+              src="/projects/stack.png"
+              width={80}
+              height={80}
+              alt="Stack"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

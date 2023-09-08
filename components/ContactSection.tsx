@@ -20,43 +20,11 @@ export default function ContactSection() {
         <div className="flex flex-col gap-1 w-full items-center justify-center">
           <h1 className="text-white text-3xl font-medium">Contact Me</h1>
           <span className="text-gray-400 w-full text-center max-w-xl text-base">
-            Let&apos;s work together! I&apos;m currently available to work for a
-            cool company. <br /> If you&apos;re interested in hiring me, please
-            contact me.
+            Let's work together! I'm currently available to work on any cool
+            project! <br /> If you're interested in hiring me, please contact me
+            on my email:{" "}
+            <p className="text-emerald-500">zubryckyj@icloud.com</p>
           </span>
-        </div>
-        <div className="flex flex-col gap-5">
-          <Input
-            label="Email Address"
-            type="text"
-            placeholder="Your email address"
-            value={formValues.email}
-            onChange={(e) =>
-              setFormValues({ ...formValues, email: e.target.value })
-            }
-          />
-          <Input
-            label="Subject"
-            type="text"
-            placeholder="Enter your subject"
-            value={formValues.subject}
-            onChange={(e) =>
-              setFormValues({ ...formValues, subject: e.target.value })
-            }
-          />
-          <Textarea
-            label="Message"
-            placeholder="What's on your mind?"
-            value={formValues.message}
-            onChange={(e) =>
-              setFormValues({ ...formValues, message: e.target.value })
-            }
-          />
-          <div className="flex w-full items-end justify-end">
-            <button className="flex items-center justify-center bg-emerald-500 text-white rounded-lg py-2 px-10 w-max">
-              Send Message
-            </button>
-          </div>
         </div>
       </div>
     </section>
