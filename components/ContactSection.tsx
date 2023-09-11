@@ -1,16 +1,4 @@
-"use client";
-
-import { useState } from "react";
-import Input from "./form/Input";
-import Textarea from "./form/Textarea";
-
 export default function ContactSection() {
-  const [formValues, setFormValues] = useState({
-    email: "",
-    subject: "",
-    message: "",
-  });
-
   return (
     <section
       id="contact"
