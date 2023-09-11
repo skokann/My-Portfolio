@@ -8,8 +8,8 @@ export default function ContactSection() {
         <div className="flex flex-col gap-1 w-full items-center justify-center">
           <h1 className="text-white text-3xl font-medium">Contact Me</h1>
           <span className="text-gray-400 w-full text-center max-w-xl text-base">
-            Lets work together! I'm currently available to work on any cool
-            project! <br /> If you're interested in hiring me, please contact me
+            Lets work together! Im currently available to work on any cool
+            project! <br /> If youre interested in hiring me, please contact me
             on my email:
             <p className="text-emerald-500">zubryckyj@icloud.com</p>
           </span>
