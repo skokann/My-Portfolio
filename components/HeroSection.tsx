@@ -5,7 +5,7 @@ export default function HeroSection() {
         Jiří <br /> Zubryckyj
       </h1>
       <span className="text-gray-400 w-full max-w-full lg:max-w-4xl text-lg">
-        Junior freelance developer skilled in React, HTML, CSS, and JavaScript.
+        Freelance developer skilled in React, HTML, CSS, and JavaScript.
         Committed to delivering high-quality projects with efficiency and
         creativity.
       </span>
