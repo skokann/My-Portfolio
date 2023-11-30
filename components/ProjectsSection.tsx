@@ -5,7 +5,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="flex flex-col gap-10 h-auto justify-center py-20"
+      className="flex flex-col gap-10 h-auto justify-center py-28"
     >
       <div className="flex flex-col gap-1 w-full items-start justify-start">
         <h1 className="text-white text-3xl font-medium">Recent Projects</h1>

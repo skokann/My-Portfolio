@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col gap-10 h-auto justify-center py-20"
+      className="flex flex-col mt-5 gap-10 h-auto justify-center py-24"
     >
       <div className="flex flex-col gap-1 w-full items-start justify-start">
         <h1 className="text-white text-3xl font-medium">My Skills</h1>

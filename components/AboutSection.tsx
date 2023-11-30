@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="flex flex-col gap-10 h-auto justify-center py-20"
+      className="flex flex-col gap-10 h-auto justify-center py-24"
     >
       <div className="flex flex-col gap-1 w-full items-start justify-start">
         <h1 className="text-white text-3xl font-medium">About Me</h1>
